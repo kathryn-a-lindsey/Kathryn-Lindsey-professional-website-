@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
     <title>Conferences</title>
-
     <style type="text/css">
       /* Use one font everywhere */
       body {
@@ -44,281 +44,979 @@
       }
     </style>
   </head>
-
   <body>
-
-    <div class="center">
-      <img style="width: 400px; height: 229px;" alt="KL" src="images/KLlogo.jpg"><br>
-
+    <div class="center"> <img style="width: 400px; height: 229px;"
+        alt="KL" src="images/KLlogo.jpg"><br>
       <table class="nav" cellspacing="2" cellpadding="0" border="0">
         <tbody>
           <tr>
             <td style="width: 16%;"><a href="index.html">ABOUT</a></td>
-
             <!-- Kept your original td color, though link text is black either way -->
-            <td class="active" style="width: 16%; color: #cc0000;"><a href="research.html">RESEARCH</a></td>
-
-            <td style="width: 16%;"><a href="teaching.html">TEACHING</a><br></td>
-
+            <td class="active" style="width: 16%; color: #cc0000;"><a
+                href="research.html">RESEARCH</a></td>
+            <td style="width: 16%;"><a href="teaching.html">TEACHING</a><br>
+            </td>
             <td style="width: 16%;"><a href="conferences.html">CONFERENCES</a></td>
-
             <td style="width: 16%;"><a href="gallery.html">GALLERY</a></td>
-
             <td style="width: 18%;"><a href="otheracademic.html">OTHER&nbsp;</a></td>
           </tr>
         </tbody>
       </table>
-
       <br>
       <hr style="width: 100%;"><br>
-
-      <div class="content">
-        <h3>Recent and Upcoming Conferences, Seminars &amp; Workshops:</h3>
-        (*)<span style="font-style: italic;"> denotes invited talk, </span><br>
-
+      <div style="text-align: left; font-family: Avenir Book;"><font
+          size="+1"><b>Primary research interests:</b></font><font
+          size="+1"><b><br>
+          </b></font></div>
+      <div style="text-align: left; font-family: Avenir Book;">
         <ul>
-          <li>*<a href="https://neuralpolytopes.gitlab.io/workshop2026/">Workshop on Polyhedral Geometry for Neural Networks</a>, University of Technology Nuremberg, Germany, Mar. 16-20, 2026. <br></li>
-          <li>*Williams College Math Faculty Seminar, Mar. 13, 2026. <br></li>
-          <li>*<a href="https://www.ams.org/meetings/sectional/2331_program_saturday.html">Special Session on Arithmetic Dynamics</a>, AMS Sectional Meeting at Boston College, March 28-29, 2026 <br></li>
-          <li>*<a href="https://www.math.cit.tum.de/math/forschung/kolloquium-seminare/oberseminar-dynamics/">TUM Oberseminar Dynamics</a>, Technische Universit&auml;t M&uuml;nchen, Nov. 3, 2025. <br></li>
-          <li>Collaboration on Mathematical and Scientific Foundations of Deep Learning Annual Meeting, Simons Foundation, Sep. 25-27, 2025. <br></li>
-          <li>*<a href="http://www.fields.utoronto.ca/activities/25-26/neuroscience-TDA">Workshop on Topological Data Analysis</a>, Fields Institute, Aug. 25-29, 2025. </li>
-          <li>*<a href="https://indico.math.cnrs.fr/event/12318/">JHH 80 Dynamical Developments: Degenerations of Flat Surfaces and Rational Maps</a>, Institut de Mathematiques de Toulouse, Jun. 10-13, 2025. <br></li>
+          <li><b>Mathematical Foundations of Deep Learning.</b> I
+            develop
+            a rigorous, theorem-driven understanding of neural networks
+            using tools from geometry, topology and dynamical
+            systems.&nbsp; My work analyzes how structural features of
+            neural network parameterizations shape the behavior,
+            expressivity, and training dynamics of the functions they
+            represent. Three complementary themes organize this
+            research:</li>
+          <ul>
+          </ul>
+        </ul>
+        <ul>
+          <ul>
+            <ul>
+              <li><b>ReLU neural networks and piecewise-linear geometry.</b>&nbsp;&nbsp;
 
-          <li>*Trinity College Dublin/Boston College Paired Colloquium Talk, Boston College, Apr. 28, 2025.&nbsp;</li>
-
-          <li>*<a href="https://seminargeotop-a.com">GEOTOP-A Seminar</a>, Apr. 25, 2025.</li>
-
-          <li>*<a href="https://sites.brown.edu/joint-dynamics-seminar/">New England Dynamics Seminar</a>, Apr. 11, 2025. <br></li>
-
-          <li>*<a href="https://bostonsymmetry.github.io">Boston Symmetry Day</a>, Northeastern U., Mar. 31, 2025. <br></li>
-
-          <li>*Virtual talk at Universidad Juarez del Estado de Durango, Mar. 12, 2025.</li>
-
-          <li>*<a href="https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_program_ss21.html#title">Special Session on Arithmetic Dynamics of Single and Multiple Maps, Joint Math Meetings</a>, Seattle, Jan. 8, 2025. <br></li>
-
-          <!-- This item had a lot of nested spans mainly to enforce “Aptos 16px”.
-               Now it’s your font, but still 16px. -->
-          <li>
-            <span class="size-16">*Minicourse, Applications of Topology to Neural Networks, </span>
-            <span class="size-16"><a href="https://applied-topology-school.eventos.cimat.mx">CIMAT-M&eacute;rida Applied Topology School</a>, Unidad M&eacute;rida, Mexico, Nov. 7-12, 2024.</span>
+Fully-connected
+                multilayer perceptrons with ReLU
+                activations coincide with the class of piecewise linear
+                functions and are the most "vanilla" type of neural
+                network. I study these networks through the geometry of
+                their associated polyhedral complexes, analyzing how the
+                arrangement of linear regions is determined by the
+                network's architecture and parameters. <br>
+              </li>
+              <li><b>Architecture based constraints on
+                  expressivity.&nbsp;
+                </b>We do not have a good understanding of which
+                functions
+                can be realized by which neural network
+                architectures.&nbsp; I investigate how the architecture
+                constrains the properties of the functions a network can
+                represent.&nbsp; <br>
+              </li>
+              <li><b>Functional redundancy. </b>Modern deep learning
+                models are highly redundant, meaning that many distinct
+                parameter settings yield the same realized function. I
+                analyze the fibers, symmetries, and quotient geometry of
+                the non-injective realization map from parameter space
+                to
+                function space, and study how these structures influence
+                training dynamics, implicit bias, generalization, and
+                model selection.<span style="caret-color: rgb(0, 0, 0);
+                  color: rgb(0, 0, 0); font-family: -webkit-standard;
+                  font-size: medium; font-style: normal;
+                  font-variant-caps: normal; font-weight: 400;
+                  letter-spacing: normal; orphans: auto; text-align:
+                  start; text-indent: 0px; text-transform: none;
+                  white-space: normal; widows: auto; word-spacing: 0px;
+                  -webkit-text-stroke-width: 0px; text-decoration: none;
+                  display: inline !important; float: none;"></span></li>
+            </ul>
+          </ul>
+        </ul>
+        <blockquote>
+          <blockquote>Prior to transitioning to the mathematics of deep
+            learning, I worked in dynamical systems.&nbsp; Although the
+            mathematical objects I study have shifted, my approach
+            remains
+            the same.&nbsp; In both areas, I combine geometry and
+            dynamical perspectives with precise mathematical reasoning
+            to
+            illuminate deep structural phenomena about parameterized
+            families of functions. <font size="+1"><b><br>
+              </b></font></blockquote>
+        </blockquote>
+        <ul>
+          <ul>
+          </ul>
+          <li><b>Dynamical Systems. </b><br>
+            My work on dynamical systems explores topological entropy
+            and
+            Thurston sets in real and complex one-dimensional dynamics,
+            with an emphasis on how combinatorial models of interval
+            maps
+            and polynomials reflect and encode dynamical complexity
+            (kneading theory). I have also worked in holomorphic
+            dynamics
+            and billiards. <br>
             <br>
           </li>
-
-          <li>*<a href="https://math.dartmouth.edu/calendar/agenda-colloq.php">Colloquium</a>, Dartmouth College, Nov. 7, 2024. <br></li>
-
-          <li>*Neural Network Theory Seminar, Brown U., Oct. 21, 2024. <br></li>
-
-          <li>*Colloquium at <a href="https://www.ida.org/en/ida-ffrdcs/center-for-communications-and-computing/center-for-computing-sciences">Center for Computing Sciences</a>, Institute for Defense Analysis, Maryland, May 23, 2024. <br></li>
-
-          <li>*<a href="https://sites.google.com/view/nywamconference/home?authuser=0">Mina Rees NY Women and Math Conference</a>, keynote, C.U.N.Y., Mar. 2, 2024.</li>
-
-          <li>*<a href="http://userhome.brooklyn.cuny.edu/aulicino/seminar/">Complex Analysis &amp; Dynamics Seminar</a>, C.U.N.Y., Mar. 1, 2024.<br></li>
-
-          <li>*Guest lecture, Math 1702: The Making of the Moral Mind, B.C., Jan. 25, 2024. <br></li>
-
-          <li><a href="https://mathml2023.caltech.edu">Mathematics and Machine Learning</a>, Caltech, Dec. 10-13, 2023.<br></li>
-
-          <li><a href="https://icerm.brown.edu/programs/sp-f23/">Math+Neuroscience Semester Program</a>, ICERM, Sep.-Dec. 2023.</li>
-
-          <li>*Open Problems Seminar, ICERM, Nov. 9, 2023.<br></li>
-
-          <li>*<a href="https://www.math.brown.edu/reschwar/seminar.html">GeomTop Seminar</a>, Brown University, Nov. 1, 2023. <br></li>
-
-          <li>*<a href="https://science.gmu.edu/academics/departments-units/mathematical-sciences/mathematics-colloquium">Colloquium</a>, George Mason U., Sep. 15, 2023.</li>
-
-          <li><a href="https://icml.cc">International Conference on Machine Learning (ICML)</a>, Poster Presentation, Honolulu, HI, July 22-29, 2023. <br></li>
-
-          <li>*<a href="http://math.bu.edu/dynamics/seminar.html">Dynamics Seminar</a>, Boston U., Apr. 3, 2023. <br></li>
-
-          <li><a href="(https://www.oneworldml.org/">*One World Seminar Series on the Mathematics of Machine Learning</a>, Mar. 29, 2023.<br></li>
-
-          <li>*<a href="http://dynamicalweekend.conference.wesleyan.edu">A Dynamical Weekend at Wesleyan</a>, Mar. 4-5, 2023. <br></li>
-
-          <li>*<a href="https://meetings.ams.org/math/jmm2022/meetingapp.cgi/Session/3490">AMS Special Session on Topology, Algebra, and Geometry in the Mathematics of Data Science</a>, Joint Math Meetings, Boston, Jan 5-6, 2023. <br></li>
-
-          <li>*<a href="https://events.bc.edu/event/eesc_department_seminar_-_kathryn_lindsey_boston_college">Earth and Environmental Sciences Depart Seminar</a>, Boston College, Oct. 18, 2022. <br></li>
-
-          <li><a href="https://www.simonsfoundation.org/event/mathematical-and-scientific-foundations-of-deep-learning-annual-meeting-2022/">NSF-Simons Mathematical and Scientific Foundations of Deep Learning Annual Meeting</a>, Sep. 29-30, 2022. Simons Foundation.&nbsp; </li>
-
-          <li>*<a href="https://people.math.harvard.edu/~demarco/AlgebraicDynamics/">Algebraic Dynamics Seminar</a>, Harvard U., Sep. 15, 2022. <br></li>
-
-          <li><a href="https://simons.berkeley.edu/workshops/deep-learning-theory-workshop">Deep Learning Theory Workshop and Summer School</a>, Simons Institute, U.C. Berkeley, Aug. 1-5, 2022. <br></li>
-
-          <li><a href="https://www.math.harvard.edu/event/the-circle-at-infinity-a-celebration-of-the-mathematics-of-curtis-t-mcmullen/">The Circle at Infinity</a>, Harvard U., May 22-24, 2022. <br></li>
-
-          <li>*<a href="https://www.inf.fu-berlin.de/inst/ag-ti/socg22/program.html">Minisymposium on computational topology, Computational Geometry Week 2022</a>, Berlin, Germany, June 7-10, 2022. <br></li>
-
-          <li>*<a href="https://math.oregonstate.edu/numbertheory_seminar">Number Theory Seminar</a>, Oregon State U., May 31, 2022. <br></li>
-
-          <li>* <a href="https://www.math.uh.edu/~climenha/2022-workshop.html">Houston workshop on hyperbolic dynamical systems</a>, U. Houston, May 19-22, 2022.</li>
-
-          <li>*<a href="https://www.dpmms.cam.ac.uk/~hk439/workshophome.html">Informal workshop in arithmetic and algebraic dynamics</a>, Harvard U., May 11-13, 2022. <br></li>
-
-          <li>*<a href="https://sites.google.com/view/tag-ds/home" target="_blank"> Pacific Northwest Seminar on Topology, Algebra, and Geometry in Data Science,</a> Feb 10, 2022. </li>
-
-          <li>* <a href="https://people.math.harvard.edu/~demarco/AlgebraicDynamics/">Algebraic Dynamics Seminar</a>, Harvard U., Jan. 27, 2022 </li>
-
-          <li>*<a href="https://uwm.edu/math/event/colloquium-dr-kathryn-lindsey/" target="_blank"> Colloquium </a>, U. Wisconsin Milwaukee (virtual), Sep. 17, 2021</li>
-
-          <li>*<a href="https://icerm.brown.edu/summerug/2021/" target="_blank"> Colloquium </a>, SUMMER@ICERM, (virtual) Jun. 18, 2021. </li>
-
-          <li><a href="https://www.youtube.com/watch?v=baP86ww6f60">Public lecture</a>, joint with G. Tiozzo and M. He, U. Toronto (virtual), Mar. 31, 2021. </li>
-
-          <li>*Panel discussion, Williams College (virtual), Mar. 16, 2021.</li>
-
-          <li>*<a href="https://warwick.ac.uk/fac/sci/maths/research/events/colloquium/1920/">Colloquium</a>, University of Warwick (virtual), Dec. 11, 2020. </li>
-
-          <li>*<a href="http://www.math.utah.edu/%7Echaika/workingseminar">Online working seminar in ergodic theory</a>, U. Utah (virtual), Oct. 26, 2020. </li>
-
-          <li>*<a href="https://www.math.wisc.edu/wiki/index.php/Dynamics_Seminar_2020-2021" title="https://www.math.wisc.edu/wiki/index.php/Dynamics_Seminar_2020-2021" target="_blank">Dynamics Seminar</a>, U. Wisconsin (virtual), Oct. 7, 2020. </li>
-
-          <li>*<a href="https://sites.google.com/g.ucla.edu/quasiworld/" target="_blank">Quasiworld Workshop</a>, UCLA (virtual), Jul. 14-15. 2020. </li>
-
-          <li>*<a href="http://people.math.harvard.edu/%7Ectm/sem/" target="_blank">Dynamics and Geometry Seminar</a>, Harvard U. (virtual), June 3, 2020.</li>
-
-          <li>*<a href="https://icerm.brown.edu/programs/sp-f19/w3/" target="_blank">Illustrating Dynamics and Probability</a>, I.C.E.R.M., Nov. 11-15, 2019.&nbsp; </li>
-
-          <li>*<a href="https://math.yale.edu/event/shape-thurstons-master-teapot">Geometry/Topology Seminar</a>, Yale U., Nov. 5, 2019.<br></li>
-
-          <li>*<a href="https://math.osu.edu/event-terms-1/seminar-ergodic-theory-and-probability">Ergodic Theory/Probability Seminar</a>, Ohio State U., Oct. 24.<br></li>
-
-          <li>*<a href="https://web.math.pmf.unizg.hr/%7Esonja/DubrovnikIX.html" target="_blank">Dubrovnik IX</a>, June 24-28, 2019, Dubrovnik, Croatia.<br></li>
-
-          <li>*Dynamics Seminar, U. Toronto, Apr. 3, 2019. <br></li>
-
-          <li>*<a href="http://math.uchicago.edu/%7Edynamics/">Dynamics Seminar</a>, U. Chicago, Mar. 4, 2019.&nbsp;</li>
-
-          <li>*Teaching Seminar, Boston College, Feb. 21, 2019.<br></li>
-
-          <li><a href="https://icerm.brown.edu/events/ht19-1-sml/" target="_blank">Scientific Machine Learning</a>, I.C.E.R.M., Jan. 28-30, 2019. <br></li>
-
-          <li>*MAA invited paper session "<a href="http://jointmathematicsmeetings.org/meetings/national/jmm2019/2217_program_mipad.html#title" target="_blank">Beauty and Art from Research Mathematics</a>" of the <a href="http://jointmathematicsmeetings.org/meetings/national/jmm2019/2217_intro" target="_blank">2019 Joint Math. Meetings</a> in Baltimore, Jan 16-19, 2019.&nbsp;</li>
-
-          <li>*Math &amp; Machine Learning Workshop, Boston College, Sep. 24-25, 2018. <br></li>
-
-          <li><a href="https://www.maths.tcd.ie/%7Ehmi/events/gt/gt2018.htm" target="_blank">14th William Rowan Hamilton Geometry and Topology Workshop: Group Actions and Ergodic Theory in Geometry and Topology</a>, Trinity College, Dublin, Ireland, Jul. 30-Aug. 3, 2018.</li>
-
-          <li>*<a href="https://icmp2018.org/" target="_blank">International Congress on Mathematical Physics</a>, Dynamical Systems session, Montreal, Canada, Jul. 23-28, 2018. <br></li>
-
-          <li>Complex dynamics workshop, Northwestern U., May 17-20, 2018. <br></li>
-
-          <li>*<a href="http://www.math.harvard.edu/%7Ectm/sem/">Informal Geometry and Dynamics Seminar</a>, Harvard U., Apr. 18, 2018. </li>
-
-          <li>*<a href="https://www.wpi.edu/c/awims" target="_blank">Advancing Women's Impact in Mathematics Symposium</a>, Worcester Polytechnic Institute, Apr. 7, 2018.</li>
-
-          <li>*<a href="https://www-math.umd.edu/dynamics-conference.html">Workshop on Dynamical Systems and Related Topics</a>, U. Maryland, Apr. 4-8, 2018.&nbsp; <br></li>
-
-          <li>*Dynamics seminar, Cornell U. Mar. 23, 2018. <br></li>
-
-          <li>*<a href="http://www.math.cornell.edu/m/event-list-p/oliver" target="_blank">Oliver Club</a> Colloquium, Cornell U., Mar. 22, 2018. <br></li>
-
-          <li>*<a href="http://riemann.math.brown.edu/ical/semprint.php?cal=Colloquia&amp;getdate=20180101" target="_blank">Colloquium</a>, Brown University, Mar. 21, 2018. <br></li>
-
-          <li>*<a href="http://math.bu.edu/dynamics/seminar.html">Dynamics Seminar</a>, Boston University, Mar. 12, 2018.</li>
-
-          <li>*Colloquium, U. Saskatoon,&nbsp; Mar. 2, 2018. <br></li>
-
-          <li>* <a href="http://jointmathematicsmeetings.org/meetings/national/jmm2018/2197_program_ss16.html#title">JMM AMS Special Session on Mathematics Research from the SMALL Undergraduate Research Program</a>,&nbsp; JMM San Diego, Jan. 13, 2018. <br></li>
-
-          <li>* <a href="http://sites.tufts.edu/ggtt/">GGTT Seminar</a>, Tufts University, Nov. 7, 2017.&nbsp; </li>
-
-          <li>* 13th<a href="http://www.maths.tcd.ie/%7Ehmi/events/gt/gt2017.htm"> William Rowan Hamilton Geometry and Topology Workshop</a>, Geometry and Dynamics of Moduli Spaces, Trinity College Dublin, Aug. 22-26, 2017.<br></li>
-
-          <li>* <a href="https://mca2017.org/prog/session/ad#cmspu_sd_p_2031">Arithmetic Dynamics special session of the Mathematical Congress of the Americas</a>, Jul. 23-28, 2017, Montreal, Canada.</li>
-
-          <li><a href="http://www.ams.org/programs/research-communities/2017MRC-3" target="_blank">Mathematics Research Community, Dynamical Systems: Smooth, Symbolic and Measurable</a>, Jun. 18-24, 2017, Snowbird, Utah.<br></li>
-
-          <li>* <a href="http://www.ams.org/meetings/sectional/2233_program_225.html#title" target="_blank">AMS Special Session on Discrete Structures in Conformal Dynamics and Geometry</a>, Indiana University Bloomington, Apr. 1-2, 2017. <br></li>
-
-          <li>*<a href="https://sites.google.com/uic.edu/math-can2"> Chicago Actions Now</a>, University of Illinois Chicago, Feb. 26, 2017. <br></li>
-
-          <li>* <a href="https://math.uchicago.edu/%7Eawm/wimsymposium.html">Women in Math Symposium</a>, U. Chicago, Feb. 25, 2017. <br></li>
-
-          <li>* George Washington University, Colloquium, Feb. 10 2017. <br></li>
-          <li>* UT Austin, Colloquium, Jan. 20, 2017. <br></li>
-          <li>* Boston College, Colloquium, Dec. 5, 2016.&nbsp; <br></li>
-          <li>* Washington University in St. Louis, Colloquium, Dec. 1, 2016. <br></li>
-          <li>* University of Wisconsin-Madison, Colloquium, Nov. 16, 2016. <br></li>
-
-          <li>* <a href="http://mwds2016.math.iupui.edu/">2016 Midwest Dynamical Systems Conference</a>, Indiana University-Purdue University Indianapolis, Nov. 4-6 2016. <br></li>
-
-          <li>* Complex Analysis Seminar, U. Michigan, Ann Arbor, Oct. 31, 2016.<br></li>
-
-          <li>* <a href="http://math.iupui.edu/%7Emaxyatts/workshop/">2016 Midwest Workshop on Asymptotic Analysis</a>, Indiana University-Purdue University Fort Wayne, Oct. 7-9, 2016.<br></li>
-
-          <li>* <a href="https://icerm.brown.edu/topical_workshops/tw16-4-ms/">Cycles on Moduli Spaces, Geometric Invariant Theory, and Dynamics</a>, I.C.E.R.M., Aug. 1-5, 2016.<br></li>
-
-          <li>* <a href="http://www.birs.ca/cmo">BIRS CMO Workshop on Flat Surfaces and Dynamics of Moduli Space</a>, Oaxaca, Mexico, May 8 - 13 2016.&nbsp; <a href="http://www.birs.ca/events/2016/5-day-workshops/16w5010/videos/watch/201605101104-Lindsey.html" target="_blank">Video</a>. </li>
-
-          <li>* Dynamics Seminar, SUNY Stony Brook, Apr. 22, 2016.</li>
-          <li>* Math Club, U. Chicago, Apr. 12, 2015.<br></li>
-          <li>* Dynamics Seminar, Tufts University, Apr. 5, 2016.<br></li>
-
-          <li>* <a href="http://www.maths.bris.ac.uk/%7Ematyd/BMC/">British Mathematics Colloquium, Ergodic Theory Special Session</a>, Bristol University, Mar. 21-24, 2016. <br></li>
-
-          <li>* Seminar, Bristol University, Mar. 15 2016.<br></li>
-
-          <li>* <a href="http://sites.baylor.edu/topology-conference/">Dynamical Systems Special Session, 2016 Spring Topology and Dynamics Conference</a>, Baylor University, Mar. 10-13, 2016. <br></li>
-
-          <li>* <a href="http://www-math.umd.edu/research/seminars/dynamics-seminar.html#view-abstract">Dynamics Seminar</a>, University of Maryland, College Park, Feb. 18,&nbsp; 2016. <br></li>
-
-          <li><a href="http://sites.google.com/site/arithmeticdynamics/home">RTG Workshop in Arithmetic Dynamics</a>, U. Michigan, Ann Arbor, Dec. 3-6 2015.</li>
-
-          <li>* <a href="http://www.math.indiana.edu/seminars/seminar.phtml?id=37&amp;all=1">Teichmueller Theory Seminar</a>, Indiana University Bloomington, Nov. 6, 2015.&nbsp;&nbsp;</li>
-
-          <li>* <a href="http://www-personal.umich.edu/%7Ekochsc/H70.html">Dynamical Developments: a conference in Complex Dynamics and Teichmuller theory</a>, in honor of John Hubbard's 70th birthday, Jacobs University, Bremen, Aug. 17-25, 2015.&nbsp;</li>
-
-          <li><a href="http://www.math.sunysb.edu/imsXXV/"> IMS XXV</a>, Stony Brook, May 8-12, 2015.&nbsp;</li>
-
-          <li><a href="https://www.msri.org/workshops/743"> Dynamics on Moduli Spaces, M.S.R.I., April 13-17, 2015.&nbsp;</a></li>
-
-          <li>* <a href="http://math.iupui.edu/"> Seminar talk </a>, Indiana University-Purdue University Indianapolis, Feb. 11, 2015.&nbsp;</li>
-
-          <li>* <a href="http://www.dom.edu/sites/default/files/documents/academics/departments/Parallel%20Session%20Timetable_revised.pdf">3rd Annual Midwest Women in Mathematics Symposium</a>, Dominican University, March 7, 2015.&nbsp;</li>
-
-          <li>* <a href="http://math.stanford.edu/seminars/infgeomtopsem.html">Geometry and Topology Seminar</a>, Stanford University, Nov. 14, 2014.&nbsp;</li>
-
-          <li><a href="http://dept.math.lsa.umich.edu/conferences/midwestDynamical/">Midwest Dynamical Systems Meeting</a>, Nov. 2014.&nbsp;</li>
-
-          <li>* <a href="http://www.beloit.edu/math/">Math Dept. Seminar</a>, Beloit College, Oct. 10, 2014.</li>
-
-          <li>* <a href="http://www.math.utah.edu/wtc/">Wasatch Topology Conference</a>, U. Utah, Aug. 22-24, 2014.&nbsp;</li>
-
-          <li><a href="http://www.math.cornell.edu/%7Ethurston">What's Next? The legacy of Bill Thurston</a>, Cornell University, June 23-27, 2014.<br></li>
-
-          <li>* <a href="http://dynamics.math.umd.edu/conferences/md14/">Workshop on Dynamical Systems and Related Topics</a>, U. Maryland, April 11-13, 2014.&nbsp;</li>
-
-          <li>* <a href="http://www.math.northwestern.edu/calendar/list.cgi?seminar=Dynamical%20Systems%20Seminar">Dynamical Systems Seminar</a>, Northwestern University, April 8, 2014<br></li>
-
-          <li>* <a href="http://dept.math.lsa.umich.edu/seminars_events/events.php?eventdefid=9&amp;dt_begin=2013-07-01&amp;dt_end=2014-06-30">Geometry Seminar</a>, University of Michigan, March 28, 2014</li>
-        </ul>
-
-        <div>
-          <h3>Conference Organization:</h3>
           <ul>
-            <li><span class="size-16"><a href="https://applied-topology-school.eventos.cimat.mx">CIMAT-M&eacute;rida Applied Topology School</a>, Unidad M&eacute;rida, Mexico, Nov. 7-12, 2024.</span></li>
+          </ul>
+        </ul>
+        <ul>
+          <ul>
+          </ul>
+          <ul>
+          </ul>
+        </ul>
+      </div>
+      <div style="text-align: left; font-family: Avenir Book;"><b><font
+            size="+1">Research advisees:</font><br>
+          <br>
+        </b>Current:<b><br>
+        </b></div>
+      <div style="text-align: left; font-family: Avenir Book;">
+        <ul>
+          <li><a moz-do-not-send="true"
+              href="https://sites.google.com/view/yaoyingfu/home">Yaoying
+              Fu</a>, Ph.D. student<br>
+          </li>
+        </ul>
+        <p>Past:<br>
+        </p>
+        <ul>
+          <li><a moz-do-not-send="true"
+href="https://www.bc.edu/content/bc-web/schools/mcas/departments/math/people/grad-students/laura-seaberg.html">Laura
+              Seaberg</a>,&nbsp; Ph.D., 2025<br>
+          </li>
+          <li><a
+              href="https://sites.google.com/bc.edu/ethan-farber/about-me?authuser=0">Ethan
+              Farber</a>, Ph.D., 2023<br>
+          </li>
+          <li>Henry Bayly, senior thesis, 2022<br>
+          </li>
+          <li>Alex Benanti, senior thesis, 2022<br>
+          </li>
+          <li>Jieqi Di, scholar of the college thesis (2nd reader), 2022<br>
+          </li>
+          <li>Hong Cai, geophysics MS student (2nd reader) 2022</li>
+          <br>
+          <br>
+        </ul>
+        <ul>
+        </ul>
+        <ul>
+        </ul>
+      </div>
+      <div style="text-align: left; font-family: Avenir Book;"><b><font
+            size="+1">Publications:</font></b><br>
+        <ul>
+          <li>Regularization Implies Balancedness in the Deep Linear
+            Network (with <a
+              href="https://appliedmath.brown.edu/people/govind-menon">G.
+              Menon</a>)<br>
+          </li>
+          <ul>
+            <li>Link to <a href="https://arxiv.org/abs/2511.01137">arxiv
+                preprint</a><br>
+              <br>
+            </li>
+          </ul>
+          <li>Empirical NTK tracks task complexity (with&nbsp; <a
+              moz-do-not-send="true"
+href="https://www.bc.edu/bc-web/schools/mcas/departments/math/people/faculty-directory/elisenda-grigsby.html">E.
+              Grigsby</a>). <br>
+            <br>
+          </li>
+          <li>On Functional dimension and persistent peudodimension
+            (with
+            <a moz-do-not-send="true"
+href="https://www.bc.edu/bc-web/schools/mcas/departments/math/people/faculty-directory/elisenda-grigsby.html">E.
+              Grigsby</a>)</li>
+          <ul>
+            <li>Link to <a moz-do-not-send="true"
+                href="https://arxiv.org/abs/2410.17191">arxiv preprint</a>.
+              <br>
+              <br>
+            </li>
+          </ul>
+          <li>Hidden symmetries of ReLU neural networks (with <a
+              moz-do-not-send="true"
+href="https://www.bc.edu/bc-web/schools/mcas/departments/math/people/faculty-directory/elisenda-grigsby.html">E.
+              Grigsby</a>, <a moz-do-not-send="true"
+              href="https://davidrolnick.com">D. Rolnick</a>)</li>
+          <ul>
+            <li>Proceedings of the 40th International Conference on
+              Machine Learning, PMLR 202:11734-11760<br>
+            </li>
+          </ul>
+          <ul>
+            <li>Link to <a moz-do-not-send="true"
+                href="https://arxiv.org/abs/2306.06179">arxiv preprint</a>
+              and <a moz-do-not-send="true"
+                href="https://proceedings.mlr.press/v202/grigsby23a.html">published
+                version</a>. <br>
+            </li>
+          </ul>
+        </ul>
+        <ul>
+          <li><font face="Avenir">On the deck groups of iterates of
+              bicritical rational maps (with <a moz-do-not-send="true"
+href="https://lsa.umich.edu/math/people/faculty/kochsc.html">S.
+                Koch</a>, <a moz-do-not-send="true"
+                href="https://www.math.uri.edu/~tsharland/">T. Sharland</a>)</font></li>
+          <ul>
+            <li><font face="Avenir">Link to <a moz-do-not-send="true"
+                  href="https://arxiv.org/abs/2210.03148">arxiv preprint</a>.
+                <br>
+              </font></li>
+          </ul>
+        </ul>
+        <ul>
+          <li><font face="Avenir">Bicritical rational maps with a common
+              iterate (with <a moz-do-not-send="true"
+                href="https://lsa.umich.edu/math/people/faculty/kochsc.html">S.
+                Koch</a>, <a moz-do-not-send="true"
+                href="https://www.math.uri.edu/~tsharland/">T. Sharland</a>)</font></li>
+          <ul>
+            <li><a moz-do-not-send="true"
+href="https://academic.oup.com/imrn/advance-article-abstract/doi/10.1093/imrn/rnad041/7080265?redirectedFrom=fulltext&amp;login=false"><i>International
 
-            <li><a href="https://meetings.ams.org/math/jmm2025/meetingapp.cgi/Session/11501">AMS Special Session on Geometric and Combinatorial Methods in Deep Learning Theory</a>, Joint Math Meetings, Seattle, Jan. 9, 2025. <br></li>
 
-            <li><a href="https://www.jointmathematicsmeetings.org/meetings/national/jmm2023/2270_program_ss57.html#title">AMS Special Session on Dynamics, Geometry, and Group Actions</a>, Joint Math. Meetings, Boston, Jan 4-5, 2023. <br></li>
 
-            <li><a href="https://www.ams.org/meetings/sectional/2275_program_ss4.html#title" title="special session" target="_blank">AMS Special Session on Geometric Dynamics and Billiards</a>, <a href="https://www.ams.org/meetings/sectional/2275_special.html">AMS Spring Sectional Meeting</a>, virtual, Mar. 19-20, 2022. <br></li>
 
-            <li><a href="https://www.maths.tcd.ie/%7Ehmi/events/gt/gt2018.htm" target="_blank">14th William Rowan Hamilton Geometry and Topology Workshop: Group Actions and Ergodic Theory in Geometry and Topology</a>, Trinity College, Dublin, Ireland, Jul. 30-Aug. 3, 2018.<br></li>
 
-            <li><a href="http://jointmathematicsmeetings.org/meetings/national/jmm2018/2197_program_ss16.html#title" target="_blank">JMM AMS Special Session on Dynamical Systems: Smooth, Symbolic and Measurable</a>, Joint Math. Meetings, San Diego, Jan 11, 2018. <br></li>
 
-            <li><a href="http://www.math.cornell.edu/%7Ethurston">What's Next? The legacy of Bill Thurston</a>, Cornell University, June 23-27, 2014. Local organizing committee. I had fun making the <a href="http://www.math.cornell.edu/%7Ethurston/poster.pdf" title="poster">poster</a>. <br></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Math.
+                  Research Notices</i></a>, Mar. 2023. <br>
+            </li>
+            <li><font face="Avenir">Link to <a moz-do-not-send="true"
+                  href="my Ph.D. student, Ethan Farber, wrote an article
+                  ([7]) that reveals how certain types of interval maps
+                  can be promoted to pseudo-Anosovs with the same growth
+                  rates, and is currently coauthoring a paper showing
+                  that
+                  a particular family of pseudo-Anosovs can all be
+                  obtained in this way.">arxiv preprint</a>. <br>
+                <br>
+              </font></li>
+          </ul>
+          <li><font face="Avenir">Functional dimension and moduli spaces
+              of ReLU neural networks (with <a moz-do-not-send="true"
+href="https://www.bc.edu/bc-web/schools/mcas/departments/math/people/faculty-directory/elisenda-grigsby.html">E.
+                Grigsby</a>, <a moz-do-not-send="true"
+href="https://www.bc.edu/bc-web/schools/mcas/departments/math/people/faculty-directory/robert-meyerhoff.html">R.
+                Meyerhoff</a>, <a moz-do-not-send="true"
+                href="https://math.wisc.edu/staff/wu-chenxi/">C. Wu</a>)</font></li>
+          <ul>
+            <li><font face="Avenir">Link to <a moz-do-not-send="true"
+                  href="https://arxiv.org/abs/2209.04036">arxiv preprint</a>.&nbsp;</font></li>
+            <li><font face="Avenir"><a
+href="https://www.sciencedirect.com/science/article/abs/pii/S0001870825005341"><i>Advances
+
+
+
+
+
+in
+                    Mathematics</i></a>, Vol 482, Part C, Dec. 2025<br>
+                <br>
+              </font></li>
+          </ul>
+          <li>Local and global topological complexity measures of
+            generic,
+            transversal ReLU neural network functions (with <a
+              moz-do-not-send="true"
+href="https://www.bc.edu/bc-web/schools/mcas/departments/math/people/faculty-directory/elisenda-grigsby.html">E.
+              Grigsby</a>, <a moz-do-not-send="true"
+              href="https://math.uoregon.edu/profile/mmasden">M. Masden</a>).</li>
+          <ul>
+            <li>Link to <a moz-do-not-send="true"
+                href="https://arxiv.org/abs/2204.06062">arxiv preprint</a>.<br>
+              <br>
+            </li>
+          </ul>
+          <li>Existence of maximum likelihood estimates in exponential
+            random graph models (with H. Bayly, <a
+              moz-do-not-send="true"
+              href="https://vivo.brown.edu/display/akhann16">A. Khanna</a>).</li>
+          <ul>
+            <li>Link to <a moz-do-not-send="true"
+                href="https://arxiv.org/abs/2204.04757">arxiv preprint</a>.
+              <br>
+              <br>
+            </li>
+          </ul>
+          <li>Master Teapots and entropy algorithms for the Mandelbrot
+            set
+            (with <a moz-do-not-send="true"
+              href="http://www.math.toronto.edu/tiozzo/">G. Tiozzo</a>,
+            <a moz-do-not-send="true"
+              href="https://math.wisc.edu/staff/wu-chenxi/">C. Wu</a>).</li>
+          <ul>
+            <li><i><a
+href="https://www.ams.org/journals/tran/2025-378-05/S0002-9947-2025-09346-2/">Transactions
+
+
+
+
+
+
+
+
+of
+                  the American Math. Soc.</a>, Mar. 2025</i> <br>
+            </li>
+            <li>Link to <a href="https://arxiv.org/abs/2112.14590">arxiv
+                preprint</a>.<br>
+              <br>
+            </li>
+          </ul>
+          <li>On transversality of bent hyperplane arrangements and the
+            topological expressiveness of ReLU neural networks (with <a
+href="https://www.bc.edu/bc-web/schools/mcas/departments/math/people/faculty-directory/elisenda-grigsby.html">E.
+              Grigsby</a>)</li>
+          <ul>
+            <li><a moz-do-not-send="true"
+                href="https://epubs.siam.org/doi/10.1137/20M1368902"><i>SIAM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Journal
+                  on Applied Algebra and Geometry</i></a>, vol. 6,
+              issue 2</li>
+            <li>Links to <a moz-do-not-send="true"
+                href="https://epubs.siam.org/doi/abs/10.1137/20M1368902">published
+                version</a> and <a moz-do-not-send="true"
+                href="https://arxiv.org/abs/2008.09052">arxiv preprint</a>.<br>
+              <br>
+            </li>
+          </ul>
+          <li>A characterization of Thurston's Master Teapot (with<a
+              href="https://math.rutgers.edu/component/comprofiler/userprofile/cw794"
+              target="_top"> C. Wu</a>).</li>
+          <ul>
+            <li><a moz-do-not-send="true"
+href="https://www.ams.org/journals/proc/2008-136-10/S0002-9939-08-09294-0/home.html"><i>Ergodic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Theory
+                  &amp; Dynamical Systems</i></a><font face="Avenir">,
+                Nov. 2022.</font><br>
+            </li>
+            <li>Links to <a moz-do-not-send="true"
+                href="https://arxiv.org/abs/1909.10675">arxiv preprint</a>.<br>
+              <br>
+            </li>
+          </ul>
+          <li>Degree-d-invariant laminations (with W. Thurston, <a
+              href="http://www.hbaik.org" target="_blank">H. Baik</a>,
+            Gao
+            Yan, <a href="http://pi.math.cornell.edu/%7Ehubbard/"
+              target="_blank">J. Hubbard</a>, Tan Lei, <a
+              href="https://math.indiana.edu/about/faculty/thurston-dylan.html"
+              target="_blank">D. Thurston</a>).</li>
+          <ul>
+            <li><i><a
+href="https://press.princeton.edu/books/hardcover/9780691167763/whats-next">What's
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Next?:
+                  The Mathematical Legacy of Williams Thurston</a></i>,
+              Princeton Univ. Press., 2021.</li>
+            <li>Links to <a moz-do-not-send="true"
+href="https://www.degruyter.com/document/doi/10.1515/9780691185897-013/html">published
+                version</a> and <a moz-do-not-send="true"
+                href="https://arxiv.org/abs/1906.05324">arxiv preprint</a>.
+              <br>
+              <br>
+            </li>
+          </ul>
+          <li>The Shape of Thurston's Master Teapot (with <a
+              href="http://www-personal.umich.edu/%7Ehbray/">H. Bray</a>,
+            <a href="https://www.swarthmore.edu/NatSci/ddavis3/"
+              target="_blank">D. Davis</a>, <a
+              href="https://math.rutgers.edu/component/comprofiler/userprofile/cw794"
+              target="_blank">C. Wu</a>).<i> <br>
+            </i></li>
+          <ul>
+            <li><i><a moz-do-not-send="true"
+href="https://www.sciencedirect.com/science/article/abs/pii/S0001870820305090">Advances
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+in
+                  Mathematics</a>, vol 377, Jan 2021. <br>
+              </i></li>
+            <li>Links to <a moz-do-not-send="true"
+                href="https://arxiv.org/abs/1902.10805">arxiv preprint</a>.
+              <br>
+              <br>
+            </li>
+          </ul>
+          <li>Fekete polynomials and shapes of Julia sets (with <a
+              href="http://www.math.stonybrook.edu/%7Emyounsi/">M.
+              Younsi</a>).</li>
+          <ul>
+            <li><i><a moz-do-not-send="true"
+href="https://www.ams.org/journals/tran/2019-371-12/S0002-9947-2019-07440-8/home.html">Transactions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+of
+                  the American Math. Soc.</a> v. </i>
+              <meta charset="UTF-8">
+              <strong style="box-sizing: border-box; font-weight: 700;
+                caret-color: rgb(37, 40, 43); color: rgb(37, 40, 43);
+                font-family: &quot;Open Sans&quot;, sans-serif;
+                font-size:
+                14px; font-style: normal; font-variant-caps: normal;
+                letter-spacing: normal; orphans: auto; text-align:
+                start;
+                text-indent: 0px; text-transform: none; white-space:
+                normal; widows: auto; word-spacing: 0px;
+                -webkit-text-size-adjust: auto;
+                -webkit-text-stroke-width:
+                0px; text-decoration: none;">371</strong><span
+                style="caret-color: rgb(37, 40, 43); color: rgb(37, 40,
+                43); font-family: &quot;Open Sans&quot;, sans-serif;
+                font-size: 14px; font-style: normal; font-variant-caps:
+                normal; font-weight: normal; letter-spacing: normal;
+                orphans: auto; text-align: start; text-indent: 0px;
+                text-transform: none; white-space: normal; widows: auto;
+                word-spacing: 0px; -webkit-text-size-adjust: auto;
+                -webkit-text-stroke-width: 0px; background-color:
+                rgb(255,
+                255, 255); text-decoration: none; display: inline
+                !important; float: none;"><span
+                  class="Apple-converted-space">, </span>2019</span> </li>
+            <li>Link to <a moz-do-not-send="true"
+                href="https://arxiv.org/abs/1607.05055">arxiv preprint</a>.
+              <br>
+              <br>
+            </li>
+          </ul>
+          <li>Convex shapes and harmonic caps (with <a
+              href="http://www.math.northwestern.edu/%7Edemarco/">L.
+              DeMarco</a>).</li>
+          <ul>
+            <li><span style="font-style: italic;"><a
+                  moz-do-not-send="true"
+                  href="https://link.springer.com/article/10.1007/s40598-016-0061-7">Arnold
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Math.
+                  Journal</a>, </span>(2017) 1-21.</li>
+            <li>Link to <a moz-do-not-send="true"
+                href="https://arxiv.org/abs/1602.02327">arxiv preprint</a>.
+            </li>
+            <ul>
+              <li><span style="color: rgb(0, 3, 255);">Read about this
+                  in
+                  <a
+href="https://www.quantamagazine.org/20170103-fractal-dynamics-from-3d-julia-sets/">Quanta
+                    Magazine</a>.<br>
+                  <br>
+                </span></li>
+            </ul>
+          </ul>
+          <li><span style="color: rgb(0, 3, 255);"><font color="#000000">Horocycle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flow
+                orbits and lattice surface characterizations (</font></span>with
+            <a href="http://www.math.utah.edu/%7Echaika/">J. Chaika</a>).
+          </li>
+          <ul>
+            <li><a moz-do-not-send="true"
+href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/abs/horocycle-flow-orbits-and-lattice-surface-characterizations/EFCCCBAA81D2D0EC9C2672562B07FDA0"><span
+                  style="font-style: italic;">Ergodic Theory &amp;
+                  Dynamical Systems</span></a>, vol 39 (6), 2019, p.
+              1441-1461.</li>
+            <li>Links to <font face="Avenir"><a moz-do-not-send="true"
+href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/abs/horocycle-flow-orbits-and-lattice-surface-characterizations/EFCCCBAA81D2D0EC9C2672562B07FDA0">published
+                  version</a> and <a moz-do-not-send="true"
+                  href="https://arxiv.org/abs/1508.02801">arxiv preprint</a>.<br>
+                <br>
+              </font></li>
+          </ul>
+          <li><font face="Avenir">Counting invariant components of
+              hyperelliptic translation surfaces.</font></li>
+          <ul>
+            <li><font face="Avenir"><span style="font-style: italic;">I</span><a
+                  moz-do-not-send="true"
+                  href="https://link.springer.com/article/10.1007/s11856-015-1248-7"><em>srael
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+J.
+                    Math.</em></a>, 210 (2015), p. 125-146. </font></li>
+            <li><font face="Avenir">Link to <a moz-do-not-send="true"
+                  href="https://arxiv.org/abs/1302.3282">arxiv preprint</a>.<br>
+                <br>
+              </font></li>
+          </ul>
+          <li><font face="Avenir">Shapes of polynomial Julia sets.</font></li>
+          <ul>
+            <li><font face="Avenir"><a moz-do-not-send="true"
+href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/abs/shapes-of-polynomial-julia-sets/CDF9E572F5912D68133F153EE866702B"><em>Ergodic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Theory
+                    &amp; Dynamical Systems</em></a>, vol 35, 06,
+                2015.</font></li>
+            <li><font face="Avenir">Links to <a moz-do-not-send="true"
+                  href="https://arxiv.org/abs/1209.0143">arxiv preprint</a>.
+              </font></li>
+            <ul>
+              <li><font face="Avenir"><span style="color: rgb(0, 3,
+                    255);">Read
+                    about this result in</span> <a
+href="http://blogs.scientificamerican.com/observations/2012/09/26/fractal-kitties-illustrate-the-endless-possibilities-for-julia-sets/">Scientific
+                    American</a>.<br>
+                  <br>
+                </font></li>
+            </ul>
+          </ul>
+          <li><font face="Avenir">A Game of Life on Penrose tilings
+              (with
+              <a href="http://dept.cs.williams.edu/%7Ebailey/">D. Bailey</a>).</font></li>
+          <ul>
+            <li><font face="Avenir">Permanent preprint. Link to <a
+                  href="https://arxiv.org/abs/1708.09301"
+                  target="_blank">arxiv
+                  preprint</a>.<br>
+                <br>
+              </font></li>
+          </ul>
+          <li><font face="Avenir">Flat surface models of ergodic systems
+            </font><font face="Avenir">(with <a
+                href="http://www.math.cornell.edu/m/People/Faculty/trevino">R.
+                Trevino</a>). </font></li>
+          <ul>
+            <li><font face="Avenir"><a moz-do-not-send="true"
+                  href="https://www.aimsciences.org/article/doi/10.3934/dcds.2016043"><span
+                    style="font-style: italic;">Discrete and Continuous
+                    Dynamical Systems - A</span></a>, vol 36, 10 (2016),
+                5509-5553.</font></li>
+            <li><font face="Avenir">Links to <a moz-do-not-send="true"
+href="https://www.aimsciences.org/article/doi/10.3934/dcds.2016043">published
+                  version</a> and arxiv preprint.<br>
+                <br>
+              </font></li>
+          </ul>
+          <li><font face="Avenir">Measurable Sensitivity (with <a
+                href="http://www.brandeis.edu/departments/mathematics/people/grad.html">J.
+                James</a>, <a
+                href="http://users.math.yale.edu/users/koberda/">T.
+                Koberda</a>, <a
+                href="http://web.williams.edu/Mathematics/csilva/">C.
+                Silva</a>, P. Speh).</font></li>
+          <ul>
+            <li><font face="Avenir"><a moz-do-not-send="true"
+href="https://www.ams.org/journals/proc/2008-136-10/S0002-9939-08-09294-0/home.html"><span
+                    style="font-style: italic;">Proc. Amer. Math. Soc.</span>
+                </a>136 (2008), 3549-3559. </font></li>
+            <li><font face="Avenir">Links to <a
+href="http://www.ams.org/journals/proc/2008-136-10/S0002-9939-08-09294-0/S0002-9939-08-09294-0.pdf">published
+                  version</a> and <a moz-do-not-send="true"
+                  href="https://arxiv.org/abs/1406.4807">arxiv preprint</a>.<br>
+                <br>
+              </font></li>
+          </ul>
+          <li><font face="Avenir">On ergodic transformations that are
+              both
+              weakly mixing and uniformly rigid (with <a
+                href="http://www.brandeis.edu/departments/mathematics/people/grad.html">J.
+                James</a>, <a
+                href="http://users.math.yale.edu/users/koberda/">T.
+                Koberda</a>, <a
+                href="http://web.williams.edu/Mathematics/csilva/">C.
+                Silva</a>, P. Speh).</font></li>
+          <ul>
+            <li><font face="Avenir"><i><a moz-do-not-send="true"
+                    href="https://nyjm.albany.edu/j/2009/15-20v.pdf">New
+                    York Journal of Math</a>.</i> 15 (2009), 393-403.</font></li>
+            <li><font face="Avenir">Links to <a
+                  href="http://nyjm.albany.edu/j/2009/15-20.pdf">published
+                  version</a> and <a moz-do-not-send="true"
+                  href="https://arxiv.org/abs/0809.4406">arxiv preprint</a>.<br>
+                <br>
+              </font></li>
+          </ul>
+          <li><font face="Avenir">Families of dynamical systems
+              associated
+              to translation surfaces.</font></li>
+          <ul>
+            <li><font face="Avenir">Ph.D. dissertation, Cornell
+                University, 2014.<br>
+                <br>
+              </font></li>
+          </ul>
+          <li><font face="Avenir">Descriptive dynamics of Borel
+              endomorphisms and group actions.</font></li>
+          <ul>
+            <li><font face="Avenir">Honors thesis in mathematics,
+                Williams
+                College, 2007.&nbsp;</font></li>
+          </ul>
+        </ul>
+        <div style="text-align: left; font-family: Avenir Book;"><b>Current
+            Grants:</b> &nbsp;&nbsp;&nbsp; </div>
+        <div style="text-align: left; font-family: Avenir Book;">
+          <ul>
+            <li>My research in machine learning is supported by <a
+href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2133822&amp;HistoricalAwards=false">NSF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+grant
+                #2133822</a>.</li>
           </ul>
         </div>
-
+        <ul>
+          <ul>
+          </ul>
+        </ul>
         <br>
       </div>
-
-      <br><br><br>
+      <div style="text-align: left; font-family: Avenir Book;"> </div>
+      <div style="text-align: center;">
+        <div style="text-align: left;"> <br>
+        </div>
+      </div>
     </div>
-
-    <br><br><br><br><br>
   </body>
 </html>
